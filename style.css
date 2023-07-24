@@ -1,22 +1,13 @@
-
-body {
-  background-color: #004643;
+.banner-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
 }
 
-.name {
-  color: #fffffe;
-}
-
-.social-icons a {
-  color: #fffffe;
-  text-decoration: none;
-}
-
-.link {
-  background-color: #f9bc60;
-}
-
-.link a {
-  color: #001e1d;
-  text-decoration: none;
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
