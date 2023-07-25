@@ -2,6 +2,17 @@
 <html>
   <head>
     <style>
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
       .banner-image {
         width: 128px;
         height: 128px;
@@ -9,20 +20,10 @@
         border-radius: 128px;
         justify-content: center;
       }
-      .thumbnails {
-        width: 48px;
-        height: 48px;
-        border-radius: 48px;
-        object-fit: cover;
-        justify-content: center;
-      }
       .name {
         color: black;
         justify-content: center;
-      }
-      .banner {
-        display: flex;
-        justify-content: center;
+        
       }
       .social-icons {
         display: flex;
@@ -32,6 +33,13 @@
       .social-icons a {
         color: #c3f0ca;
         text-decoration: none;
+        justify-content: center;
+      }
+      .thumbnails {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
         justify-content: center;
       }
       .link {
@@ -44,13 +52,6 @@
         color: #00ebc7;
         text-decoration: none;
         text-align: center;
-        flex-grow: 1;
-      }
-      .items {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        max-width: 640px;
         flex-grow: 1;
       }
       * {
